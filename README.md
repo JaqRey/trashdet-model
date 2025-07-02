@@ -18,16 +18,6 @@ pip install ultralytics opencv-python
    - The script will display the detection results and save an output image as `output.jpg`.
    - Detected classes and confidence scores will be printed in the terminal.
 
-## Running Inference on Webcam
-
-1. Make sure your webcam is connected.
-2. Use the provided `camera_inference.py` script to run real-time inference:
-    ```sh
-    python camera_inference.py
-    ```
-   - The script will open a window showing live detections from your webcam.
-   - Press `q` to quit the webcam window.
-
 ## Notes
 
 - Edit the image path in `inference.py` if your test image is in a different location.
