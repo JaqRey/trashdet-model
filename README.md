@@ -18,6 +18,12 @@ pip install ultralytics opencv-python
    - The script will display the detection results and save an output image as `output.jpg`.
    - Detected classes and confidence scores will be printed in the terminal.
 
+## Run on Webcam
+1. To run on webcam:
+   ```sh
+   python cam.py
+   ```
+
 ## Notes
 
 - Edit the image path in `inference.py` if your test image is in a different location.
